@@ -26,7 +26,7 @@ const [likes, likeCount] = useState(props.posts.likes)
           src={props.posts.imageUrl}
         />
       </div>
-      <LikeSection likes = {likes}/>
+      <LikeSection likes = {likes} likeCount ={likeCount}/>
       <CommentSection
         postId={props.posts.imageUrl}
         comments={props.posts.comments}
